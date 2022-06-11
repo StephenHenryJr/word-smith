@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/dist/output.css" rel="stylesheet" />
+</head>
+
+<body id="body" class="bg-rose-600">
+  <!-- Page Container -->
+
+  <div class="container mx-auto w-screen h-screen text-center text-white font-mono text-base">
+
+    <!-- Header Section -->
+    <div class="container">
+      <image class="w-36 h-24 m-auto object-contain"
+        src="https://content.codecademy.com/courses/intermediate-javascript-requests/wordsmith_logo.svg" />
+    </div>
+
+
+    <!-- Submission Section -->
+    <div class="container mt-5">
+      <h1 class="text-4xl text-white">Enter a word</h1>
+      <form>
+        <input id="input" class="w-80 h-12 mx-auto my-5 bg-slate-900 block rounded text-center text-slate-900" type="text" >
+        <button id="submit" class="w-32 h-9 bg-slate-900 rounded shadow-xl hover:bg-slate-800 tracking-wide">Submit</button>
+      </form>
+    </div>
+
+    <!-- Response Section -->
+    <div id="responseField" class="container flex flex-col justify-center max-w-md h-80 m-auto mt-3 p-4 bg-slate-900 rounded-lg">
+    </div>
+
+    <!-- End of page -->
+
+  </div>
+  <script type="" src="index.js"></script>
+  <script type="" src="helperFunctions.js"></script>
+</body>
+
+</html>
