@@ -1,5 +1,6 @@
 const url = 'https://api.datamuse.com/words?';
-const queryParams = 'rel_jja=';
+// words that rhyme with param
+const queryParams = 'rel_rhy=';
 
 // Selecting page elements
 const inputField = document.querySelector('#input');
